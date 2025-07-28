@@ -18,7 +18,7 @@ const Projects = () => {
         "Faculty and course information"
       ],
       github: "https://github.com/anirudhb2001/Day2Project-Website",
-      live: "https://anirudhb2001.github.io/Day2Project-Website/",
+      live: "https://anirudhb2001.github.io/College_website/",
       status: "Completed"
     },
     {
