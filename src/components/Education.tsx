@@ -6,28 +6,49 @@ const Education = () => {
     {
       degree: "Bachelor of Technology",
       field: "Computer Science & Engineering",
-      institution: "Your University Name",
-      location: "City, State",
-      duration: "2021 - 2025",
-      grade: "CGPA: 8.5/10",
+      institution: "College of Engineering Kidangoor",
+      location: "Kottayam, Kerala",
+      duration: "2023 - 2026",
+     // grade: "CGPA: 8.5/10",
       highlights: [
         "Relevant Coursework: Data Structures, Algorithms, DBMS, OOP",
         "Active member of Computer Science Society",
-        "Participated in multiple coding competitions and hackathons"
+        // "Participated in multiple coding competitions and hackathons"
+      ]
+    },
+    {
+      degree: "Diploma in Computer Engoineering",
+      field: "Computer Science",
+      institution: "Government Polytechnic College, Pala",
+      location: "Kottayam, Kerala",
+      duration: "2019 - 2022",
+      grade: "first class",
+      highlights: [
+        "Specialized in software development and programming languages",
+        "Developed several projects in HTML,CSS and JavaScript",
+        "Member of the college union and technical club"
       ]
     },
     {
       degree: "Higher Secondary Education",
       field: "Science Stream (PCM)",
-      institution: "Your School Name",
-      location: "City, State", 
-      duration: "2019 - 2021",
-      grade: "Percentage: 90%",
+      institution: "St. Thomas HSS, Pala",
+      location: "kottayam, Kerala", 
+      duration: "2017 - 2019",
+      grade: "Percentage: 80%",
       highlights: [
         "Mathematics, Physics, Chemistry focus",
         "Computer Science as additional subject",
         "School programming club member"
       ]
+    },
+    {
+degree: "Secondary School Certificate",
+      field: "General Education",
+      institution: "St. Joseph's HSS, Vilakkumadom",
+      location: "Kottayam, Kerala",
+      duration: "2016 - 2017",
+      grade: "98%",
     }
   ];
 
@@ -81,18 +102,18 @@ const Education = () => {
                     </div>
                   </div>
 
-                  {/* Right Column - Highlights */}
-                  <div>
-                    <h4 className="text-lg font-semibold mb-4">Key Highlights</h4>
-                    <ul className="space-y-3">
-                      {edu.highlights.map((highlight, highlightIndex) => (
-                        <li key={highlightIndex} className="flex items-start gap-3">
-                          <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
-                          <span className="text-muted-foreground">{highlight}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
+                 {/* Right Column - Highlights */}
+<div>
+  <h4 className="text-lg font-semibold mb-4">Key Highlights</h4>
+  <ul className="space-y-3">
+    {(edu.highlights ?? []).map((highlight, highlightIndex) => (
+      <li key={highlightIndex} className="flex items-start gap-3">
+        <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
+        <span className="text-muted-foreground">{highlight}</span>
+      </li>
+    ))}
+  </ul>
+</div>
                 </div>
               </CardContent>
             </Card>
