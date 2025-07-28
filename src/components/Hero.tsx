@@ -6,7 +6,7 @@ const Hero = () => {
   const handleDownloadResume = () => {
     // Create a dummy PDF download
     const link = document.createElement('a');
-    link.href = './Anirudh_B_Nair_Resume.pdf';
+    link.href = './Anirudh_B_Nair_Resume.pdf'; // Use public folder path
     link.download = 'Anirudh_B_Nair_Resume.pdf';
      link.click(); // Uncomment when you have an actual resume file
     console.log('Resume download clicked');
