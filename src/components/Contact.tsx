@@ -5,6 +5,9 @@ import { Textarea } from "@/components/ui/textarea";
 import { Mail, Phone, MapPin, Send, Linkedin, Github, ExternalLink } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
+import emailjs from 'emailjs-com';
+import { ChangeEvent } from "react";
+
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -15,26 +18,38 @@ const Contact = () => {
   });
   const { toast } = useToast();
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
+  // ...existing code...
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    
+
+const handleSubmit = (e: React.FormEvent) => {
+  e.preventDefault();
+  // filepath: c:\Users\ASUS\Desktop\anirudh-nair-portfolio\src\components\Contact.tsx
+emailjs.send(
+  
+  'service_frynhbq',
+  'template_t2m0ike',
+  {
+    from_name: formData.name,
+    from_email: formData.email,
+    subject: formData.subject,
+    message: formData.message
+  },
+  'pAMYcUCdDF70PA9CW'
+
+  ).then(() => {
     toast({
       title: "Message Sent!",
       description: "Thank you for your message. I'll get back to you soon!",
     });
-
-    // Reset form
     setFormData({ name: '', email: '', subject: '', message: '' });
-  };
+  }).catch(() => {
+    toast({
+      title: "Error",
+      description: "Failed to send message. Please try again.",
+    });
+  });
+};
+// ...existing code...
 
   const contactInfo = [
     {
@@ -77,6 +92,14 @@ const Contact = () => {
       color: "text-primary"
     }
   ];
+
+  function handleInputChange(event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>): void {
+    const { name, value } = event.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  }
 
   return (
     <section id="contact" className="py-20 px-6 bg-muted/20">
