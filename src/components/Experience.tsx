@@ -4,26 +4,26 @@ import { Building, Calendar, MapPin, Star, Award, Code } from "lucide-react";
 
 const Experience = () => {
   const experiences = [
+    // {
+    //   company: "Tech Solutions Inc.",
+    //   position: "Software Development Intern",
+    //   duration: "Jun 2024 - Aug 2024",
+    //   location: "Bangalore, India",
+    //   type: "Internship",
+    //   description: "Worked on developing web applications using React and Node.js, contributing to both frontend and backend development projects.",
+    //   achievements: [
+    //     "Developed 3 responsive web components using React and TypeScript",
+    //     "Optimized database queries resulting in 25% faster load times",
+    //     "Collaborated with senior developers on agile development practices",
+    //     "Implemented REST API endpoints for user management system"
+    //   ],
+    //   technologies: ["React", "Node.js", "TypeScript", "MongoDB", "Git"]
+    // },
     {
-      company: "Tech Solutions Inc.",
-      position: "Software Development Intern",
-      duration: "Jun 2024 - Aug 2024",
-      location: "Bangalore, India",
-      type: "Internship",
-      description: "Worked on developing web applications using React and Node.js, contributing to both frontend and backend development projects.",
-      achievements: [
-        "Developed 3 responsive web components using React and TypeScript",
-        "Optimized database queries resulting in 25% faster load times",
-        "Collaborated with senior developers on agile development practices",
-        "Implemented REST API endpoints for user management system"
-      ],
-      technologies: ["React", "Node.js", "TypeScript", "MongoDB", "Git"]
-    },
-    {
-      company: "StartupXYZ",
+      company: "Suffix solutions",
       position: "Mobile App Development Intern",
       duration: "Jan 2024 - Mar 2024",
-      location: "Remote",
+      location: "Kochi, India",
       type: "Internship",
       description: "Contributed to cross-platform mobile application development using Flutter, focusing on UI/UX implementation and API integration.",
       achievements: [
@@ -45,19 +45,19 @@ const Experience = () => {
     },
     {
       name: "Web Development Bootcamp",
-      issuer: "freeCodeCamp",
+      issuer: "udemy",
       date: "2023",
       credentialId: "FCC-789012"
     },
     {
       name: "Flutter Development Course",
-      issuer: "Google Developers",
+      issuer: "Scope India",
       date: "2023",
       credentialId: "GD-345678"
     },
     {
       name: "SQL Database Fundamentals",
-      issuer: "Microsoft",
+      issuer: "Udemy",
       date: "2023",
       credentialId: "MS-901234"
     }

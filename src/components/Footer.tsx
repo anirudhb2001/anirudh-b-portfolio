@@ -97,7 +97,7 @@ const Footer = () => {
             <div className="space-y-3 text-muted-foreground">
               <p>Kerala, India</p>
               <a 
-                href="mailto:anirudh.b.nair@example.com"
+                href="mailto:anirudhbelkm29@gmail.com"
                 className="block hover:text-primary transition-colors animated-underline"
               >
                 anirudhbelkm29@gmail.com

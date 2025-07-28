@@ -7,18 +7,18 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Web Application",
-      description: "A full-stack e-commerce platform built with React and Node.js, featuring user authentication, product management, shopping cart, and payment integration.",
-      technologies: ["React", "Node.js", "MongoDB", "Express.js", "Stripe API"],
-      icon: Globe,
+      title: "College Website",
+      description: "A responsive college website built with HTML, CSS, and JavaScript, showcasing college information, events, and admission details.",
+      technologies: ["JavaScript", "HTML5", "CSS"],
+      icon: Code,
       features: [
-        "User authentication and authorization",
-        "Product catalog with search and filtering",
-        "Shopping cart and checkout process",
-        "Admin dashboard for inventory management"
+        "Responsive design for mobile and desktop",
+        "Dynamic event calendar",
+        "Admission form submission",
+        "Faculty and course information"
       ],
-      github: "https://github.com/anirudh-b-nair/ecommerce-app",
-      live: "https://ecommerce-demo.example.com",
+      github: "https://github.com/anirudhb2001/Day2Project-Website",
+      live: "https://anirudhb2001.github.io/Day2Project-Website/",
       status: "Completed"
     },
     {
@@ -53,22 +53,6 @@ const Projects = () => {
       live: "",
       status: "Completed"
     },
-    {
-      id: 4,
-      title: "Algorithm Visualizer",
-      description: "An interactive web application that visualizes various sorting and searching algorithms, helping students understand algorithmic concepts through animations.",
-      technologies: ["JavaScript", "HTML5", "CSS3", "Canvas API"],
-      icon: Code,
-      features: [
-        "Interactive algorithm animations",
-        "Multiple sorting algorithms",
-        "Step-by-step execution control",
-        "Performance comparison metrics"
-      ],
-      github: "https://github.com/anirudh-b-nair/algorithm-visualizer",
-      live: "https://algo-viz-demo.example.com",
-      status: "Completed"
-    }
   ];
 
   return (

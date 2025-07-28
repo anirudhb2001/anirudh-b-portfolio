@@ -82,14 +82,14 @@ const About = () => {
             <div className="grid grid-cols-2 gap-4">
               <Card className="skill-card">
                 <CardContent className="p-4 text-center">
-                  <h4 className="text-3xl font-bold text-primary mb-2">10+</h4>
+                  <h4 className="text-3xl font-bold text-primary mb-2">6+</h4>
                   <p className="text-sm text-muted-foreground">Programming Languages</p>
                 </CardContent>
               </Card>
               
               <Card className="skill-card">
                 <CardContent className="p-4 text-center">
-                  <h4 className="text-3xl font-bold text-accent mb-2">15+</h4>
+                  <h4 className="text-3xl font-bold text-accent mb-2">10+</h4>
                   <p className="text-sm text-muted-foreground">Projects Completed</p>
                 </CardContent>
               </Card>

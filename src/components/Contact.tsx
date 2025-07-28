@@ -40,19 +40,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "anirudh.b.nair@example.com",
-      href: "mailto:anirudh.b.nair@example.com"
+      value: "anirudhbelkm29@gmail.com",
+      href: "mailto:anirudhbelkm29@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 98765 43210",
-      href: "tel:+919876543210"
+      value: "+91 9745923295",
+      href: "tel:+919745923295"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Bangalore, India",
+      value: "Kerala, India",
       href: ""
     }
   ];
@@ -61,13 +61,13 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/anirudh-b-nair",
+      href: "https://www.linkedin.com/in/anirudh-b-nair-9745elkm/",
       color: "text-blue-400"
     },
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/anirudh-b-nair",
+      href: "https://github.com/anirudhb2001",
       color: "text-foreground"
     },
     {
