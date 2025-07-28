@@ -19,17 +19,17 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: "https://github.com/anirudh-b-nair",
+      href: "https://github.com/anirudhb2001",
       label: "GitHub"
     },
     {
       icon: Linkedin,
-      href: "https://linkedin.com/in/anirudh-b-nair",
+      href: "https://www.linkedin.com/in/anirudh-b-nair-9745elkm/",
       label: "LinkedIn"
     },
     {
       icon: Mail,
-      href: "mailto:anirudh.b.nair@example.com",
+      href: "mailto:anirudhbelkm29@gmail.com",
       label: "Email"
     }
   ];
@@ -95,18 +95,18 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Get in Touch</h4>
             <div className="space-y-3 text-muted-foreground">
-              <p>Bangalore, India</p>
+              <p>Kerala, India</p>
               <a 
                 href="mailto:anirudh.b.nair@example.com"
                 className="block hover:text-primary transition-colors animated-underline"
               >
-                anirudh.b.nair@example.com
+                anirudhbelkm29@gmail.com
               </a>
               <a 
-                href="tel:+919876543210"
+                href="tel:+919745923295"
                 className="block hover:text-primary transition-colors animated-underline"
               >
-                +91 98765 43210
+                +91 9745923295
               </a>
             </div>
           </div>

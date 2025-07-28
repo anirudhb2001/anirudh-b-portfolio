@@ -6,9 +6,9 @@ const Hero = () => {
   const handleDownloadResume = () => {
     // Create a dummy PDF download
     const link = document.createElement('a');
-    link.href = '#';
+    link.href = './Anirudh_B_Nair_Resume.pdf';
     link.download = 'Anirudh_B_Nair_Resume.pdf';
-    // link.click(); // Uncomment when you have an actual resume file
+     link.click(); // Uncomment when you have an actual resume file
     console.log('Resume download clicked');
   };
 
@@ -37,7 +37,7 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 font-space-grotesk">
             <span className="gradient-text">Anirudh</span>
             <br />
-            <span className="text-foreground">B </span>
+            <span className="text-foreground">B Nair </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
@@ -61,7 +61,7 @@ const Hero = () => {
                 className="border-border hover:border-primary hover:bg-primary/10"
                 asChild
               >
-                <a href="https://linkedin.com/in/anirudh-b-nair" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/anirudh-b-nair-9745elkm/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>
@@ -72,7 +72,7 @@ const Hero = () => {
                 className="border-border hover:border-primary hover:bg-primary/10"
                 asChild
               >
-                <a href="https://github.com/anirudh-b-nair" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/anirudhb2001" target="_blank" rel="noopener noreferrer">
                   <Github className="h-5 w-5" />
                 </a>
               </Button>
