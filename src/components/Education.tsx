@@ -17,7 +17,7 @@ const Education = () => {
       ]
     },
     {
-      degree: "Diploma in Computer Engoineering",
+      degree: "Diploma in Computer Engineering",
       field: "Computer Science",
       institution: "Government Polytechnic College, Pala",
       location: "Kottayam, Kerala",
