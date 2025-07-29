@@ -22,6 +22,21 @@ const Projects = () => {
       status: "Completed"
     },
     {
+      id: 4,
+      title: "Portfolio Website",
+      description: "A personal portfolio website built with React and Tailwind CSS, showcasing my skills, projects, and contact information.",
+      technologies: ["React", "Tailwind CSS", "TypeScript"],
+      icon: Globe,
+      features: [
+        "Interactive project showcase",
+        "Dark mode toggle",
+        "Smooth scrolling navigation",
+        "Contact form with validation"
+      ],
+      github: "https://github.com/anirudhb2001/portfolio-main",
+      live: "https://anirudhb2001.github.io/portfolio-main/",
+    },
+    {
       id: 2,
       title: "Task Management Mobile App",
       description: "A cross-platform mobile application developed using Flutter and Dart, helping users organize tasks with intuitive UI and offline functionality.",
@@ -53,6 +68,22 @@ const Projects = () => {
       live: "",
       status: "Completed"
     },
+    {
+      id: 5,
+      title: "BMI Calculator",
+      description:"A simple mobile application built with Flutter that calculates Body Mass Index (BMI) based on user input.",
+      technologies: ["Flutter", "Dart"],
+      icon: Code,
+      features: [
+        "User-friendly interface",
+        "Real-time BMI calculation",
+        "Health tips based on BMI results",
+        "Responsive design for various screen sizes"
+      ],
+      github:"https://github.com/anirudhb2001/portfolio-main",
+      live:"https://anirudhb2001.github.io/bmiapp/",
+       status: "Completed"
+    }
   ];
 
   return (

@@ -29,27 +29,6 @@ const Education = () => {
         "Member of the college union and technical club"
       ]
     },
-    {
-      degree: "Higher Secondary Education",
-      field: "Science Stream (PCM)",
-      institution: "St. Thomas HSS, Pala",
-      location: "kottayam, Kerala", 
-      duration: "2017 - 2019",
-      grade: "Percentage: 80%",
-      highlights: [
-        "Mathematics, Physics, Chemistry focus",
-        "Computer Science as additional subject",
-        "School programming club member"
-      ]
-    },
-    {
-degree: "Secondary School Certificate",
-      field: "General Education",
-      institution: "St. Joseph's HSS, Vilakkumadom",
-      location: "Kottayam, Kerala",
-      duration: "2016 - 2017",
-      grade: "98%",
-    }
   ];
 
   return (
