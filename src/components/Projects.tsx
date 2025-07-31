@@ -48,7 +48,7 @@ const Projects = () => {
         "Real-time notifications",
         "Dark/Light theme support"
       ],
-      github: "https://github.com/anirudh-b-nair/task-manager",
+      github: "https://github.com/anirudhb2001/",
       live: "",
       status: "In Progress"
     },
@@ -64,7 +64,7 @@ const Projects = () => {
         "Grade calculation and reporting",
         "Admin and teacher role management"
       ],
-      github: "https://github.com/anirudh-b-nair/student-info-system",
+      github: "https://github.com/anirudhb2001/",
       live: "",
       status: "Completed"
     },
