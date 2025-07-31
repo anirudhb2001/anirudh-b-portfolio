@@ -34,7 +34,7 @@ const Projects = () => {
         "Contact form with validation"
       ],
       github: "https://github.com/anirudhb2001/portfolio-main",
-      live: "https://anirudhb2001.github.io/portfolio-main/",
+      //live: "https://anirudhb2001.github.io/portfolio-main/",
     },
     {
       id: 2,
@@ -80,8 +80,8 @@ const Projects = () => {
         "Health tips based on BMI results",
         "Responsive design for various screen sizes"
       ],
-      github:"https://github.com/anirudhb2001/portfolio-main",
-      live:"https://anirudhb2001.github.io/bmiapp/",
+      github:"https://github.com/anirudhb2001/",
+      //live:"https://anirudhb2001.github.io/bmiapp/",
        status: "Completed"
     }
   ];
