@@ -24,7 +24,7 @@ const About = () => {
             </div>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm Anirudh B Nair, a dedicated Computer Science and Engineering student with a passion 
+              I'm Anirudh B, a dedicated Computer Science and Engineering student with a passion 
               for technology and innovation. I thrive on solving complex problems and turning ideas 
               into reality through code.
             </p>
