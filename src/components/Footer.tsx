@@ -6,37 +6,37 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const quickLinks = [
-    { label: 'About', href: '#about' },
-    { label: 'Skills', href: '#skills' },
-    { label: 'Projects', href: '#projects' },
-    { label: 'Contact', href: '#contact' }
+    { label: "About", href: "#about" },
+    { label: "Skills", href: "#skills" },
+    { label: "Projects", href: "#projects" },
+    { label: "Contact", href: "#contact" },
   ];
 
   const socialLinks = [
     {
       icon: Github,
       href: "https://github.com/anirudhb2001",
-      label: "GitHub"
+      label: "GitHub",
     },
     {
       icon: Linkedin,
       href: "https://www.linkedin.com/in/anirudh-b-nair-9745elkm/",
-      label: "LinkedIn"
+      label: "LinkedIn",
     },
     {
       icon: Mail,
       href: "mailto:anirudhbelkm29@gmail.com",
-      label: "Email"
-    }
+      label: "Email",
+    },
   ];
 
   const handleQuickLinkClick = (href: string) => {
-    const sectionId = href.replace('#', '');
-    document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
+    const sectionId = href.replace("#", "");
+    document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -49,8 +49,9 @@ const Footer = () => {
               <span className="gradient-text">Anirudh B Nair</span>
             </h3>
             <p className="text-muted-foreground mb-6 max-w-md">
-              Computer Science & Engineering student passionate about creating innovative 
-              solutions through code. Always eager to learn and contribute to meaningful projects.
+              Computer Science & Engineering student passionate about creating
+              innovative solutions through code. Always eager to learn and
+              contribute to meaningful projects.
             </p>
             <div className="flex gap-3">
               {socialLinks.map((social, index) => (
@@ -61,9 +62,9 @@ const Footer = () => {
                   className="border-border hover:border-primary hover:bg-primary/10"
                   asChild
                 >
-                  <a 
-                    href={social.href} 
-                    target="_blank" 
+                  <a
+                    href={social.href}
+                    target="_blank"
                     rel="noopener noreferrer"
                     aria-label={social.label}
                   >
@@ -96,13 +97,13 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Get in Touch</h4>
             <div className="space-y-3 text-muted-foreground">
               <p>Kerala, India</p>
-              <a 
+              <a
                 href="mailto:anirudhbelkm29@gmail.com"
                 className="block hover:text-primary transition-colors animated-underline"
               >
                 anirudhbelkm29@gmail.com
               </a>
-              <a 
+              <a
                 href="tel:+919745923295"
                 className="block hover:text-primary transition-colors animated-underline"
               >
@@ -117,7 +118,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-2 text-muted-foreground">
-            <span>© {currentYear} Anirudh B Nair with</span>
+            <span>© {currentYear} Anirudh B with</span>
             <span>using React & TypeScript</span>
           </div>
 
