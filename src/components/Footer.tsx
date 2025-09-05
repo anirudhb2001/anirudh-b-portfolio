@@ -46,7 +46,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="md:col-span-2">
             <h3 className="text-2xl font-bold font-space-grotesk mb-4">
-              <span className="gradient-text">Anirudh B Nair</span>
+              <span className="gradient-text">Anirudh B</span>
             </h3>
             <p className="text-muted-foreground mb-6 max-w-md">
               Computer Science & Engineering student passionate about creating
